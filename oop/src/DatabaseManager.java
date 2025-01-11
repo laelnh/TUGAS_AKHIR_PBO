@@ -2,8 +2,10 @@ import java.sql.*;
 
 public class DatabaseManager {
     private static final String URL = "jdbc:mysql://localhost:3306/snake_game";
-    private static final String USER = "phpmyadmin"; // Ganti dengan user Anda
-    private static final String PASSWORD = "67616E7431aelaax@"; // Ganti dengan password Anda
+    private static final String USER = "phpmyadmin"; // Ganti dengan user kalian
+    private static final String PASSWORD = "anu"; // sengaja passwordnya di buat salah karena di upload ke github dan kebutuhan privasi jadi password nya saya samarkan saja,
+    //ini tadi pake password mysql masing2 tergantung kalian pake password atau tidak
+    
     private Connection connection;
 
     public DatabaseManager() {
